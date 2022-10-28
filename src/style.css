@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #6c63ff;
+  --secundary-color: black;
+  --box-shadow: 2px 2px 2px grey;
+}
+
+h1,
+h2,
+.name {
+  text-align: center;
+}
+
+h1 {
+  color: var(--secundary-color);
+  margin-top: 150px;
+}
+
+h2 {
+  color: var(--secundary-color);
+  font-size: 17px;
+}
+
+h3 {
+  color: var(--secundary-color);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border-radius: 5px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.container {
+  width: 700px;
+}
+
+.container-fluid {
+  position: fixed;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+.name {
+  font-size: 75px;
+  color: var(--secundary-color);
+  font-weight: bolder;
+}
+
+.list {
+  /* list-style: circle; */
+  text-decoration: underline;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  margin-top: 35px;
+}
+
+.aboutMe {
+  font-weight: bold;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.info {
+  color: var(--secundary-color);
+  display: flex;
+  margin: 15px;
+  padding: 25px;
+}
+
+.aboutMe-page {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.links a {
+  margin: 20px;
+}
+.about-link {
+  background-color: white;
+  color: var(--primary-color);
+  padding: 25px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.contact {
+  font-size: 35px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.email-link {
+  color: var(--primary-color);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.info {
+  margin-top: 25px;
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+
+  li {
+    text-align: center;
+  }
+
+  .padelimg {
+    display: none;
+  }
+
+  .travelimg {
+    display: none;
+  }
+
+  .weatherimg {
+    display: none;
+  }
+
+  .list {
+    text-align: center;
+  }
+}
